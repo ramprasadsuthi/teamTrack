@@ -1,0 +1,6 @@
+{
+  "name": "TeamTrack — Staff Task & Goal Tracker",
+  "description": "Internal staff task and goal management system with persistent server-side JSON storage, missed deadline detection, and team performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
