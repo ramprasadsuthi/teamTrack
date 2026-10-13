@@ -213,7 +213,7 @@ export const SettingsPage: React.FC = () => {
                 required
                 value={orgName}
                 onChange={(e) => setOrgName(e.target.value)}
-                placeholder="Apex Engineering & Operations"
+                placeholder="MR Technologies"
                 className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-white"
               />
             </div>

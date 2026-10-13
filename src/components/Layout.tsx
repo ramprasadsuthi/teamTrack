@@ -122,7 +122,7 @@ export const Layout: React.FC = () => {
                 </span>
               </div>
               <div className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                {settings?.organizationName || 'Apex Engineering & Operations'}
+                {settings?.organizationName || 'MR Technologies'}
               </div>
             </div>
           </div>
@@ -255,7 +255,7 @@ export const Layout: React.FC = () => {
             </div>
             <div className="text-left hidden md:block">
               <div className="text-xs font-semibold text-slate-800 dark:text-slate-200 leading-none">Admin</div>
-              <div className="text-[10px] text-slate-400 leading-none mt-0.5">Apex Internal</div>
+              <div className="text-[10px] text-slate-400 leading-none mt-0.5">{settings?.organizationName || 'MR Technologies'}</div>
             </div>
           </div>
         </div>

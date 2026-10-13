@@ -3,7 +3,6 @@ import cors from 'cors';
 import { apiRouter } from './routes/api';
 import { deadlineEngine } from './services/deadlineEngine';
 import { storage } from './services/storage';
-import { loadSampleData } from './services/sampleData';
 
 export const app = express();
 
@@ -39,14 +38,3 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
 // Start background deadline engine on application boot
 deadlineEngine.start(5);
 
-// If brand new deployment with empty data, populate sample demonstration dataset once
-storage.getAllTasks().then(async (tasks) => {
-  if (tasks.length === 0) {
-    try {
-      console.log('[TeamTrack] Brand new workspace detected. Initializing demonstration data...');
-      await loadSampleData();
-    } catch (err) {
-      console.error('[TeamTrack] Error initializing sample data:', err);
-    }
-  }
-});

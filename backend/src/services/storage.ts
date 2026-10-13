@@ -48,7 +48,7 @@ export class StorageService {
     this.ensureFileExists('activity-logs.json', []);
     this.ensureFileExists('notifications.json', []);
     this.ensureFileExists('settings.json', {
-      organizationName: 'Apex Engineering & Operations',
+      organizationName: 'MR Technologies',
       timezone: CONFIG.DEFAULT_TIMEZONE,
       defaultReminderLeadDays: 3,
       autoCheckIntervalMinutes: 5,
@@ -129,7 +129,7 @@ export class StorageService {
   // ==========================================
   public async getSettings(): Promise<Settings> {
     return this.safeReadFile<Settings>('settings.json', {
-      organizationName: 'Apex Engineering & Operations',
+      organizationName: 'MR Technologies',
       timezone: CONFIG.DEFAULT_TIMEZONE,
       defaultReminderLeadDays: 3,
       autoCheckIntervalMinutes: 5,
@@ -163,63 +163,67 @@ export class StorageService {
   }
 
   public async createTeamMember(memberData: Omit<TeamMember, 'id' | 'createdAt' | 'updatedAt'>): Promise<TeamMember> {
-    const members = await this.getAllTeamMembers();
+    return this.withFileLock('team-members.json', async () => {
+      const members = await this.getAllTeamMembers();
 
-    // Check duplicate employeeCode
-    if (members.some((m) => m.employeeCode.trim().toLowerCase() === memberData.employeeCode.trim().toLowerCase())) {
-      throw new Error(`Employee code '${memberData.employeeCode}' is already registered.`);
-    }
+      // Check duplicate employeeCode
+      if (members.some((m) => m.employeeCode.trim().toLowerCase() === memberData.employeeCode.trim().toLowerCase())) {
+        throw new Error(`Employee code '${memberData.employeeCode}' is already registered.`);
+      }
 
-    // Check duplicate email
-    if (memberData.email && members.some((m) => m.email.trim().toLowerCase() === memberData.email.trim().toLowerCase())) {
-      throw new Error(`Email address '${memberData.email}' is already registered.`);
-    }
+      // Check duplicate email
+      if (memberData.email && members.some((m) => m.email.trim().toLowerCase() === memberData.email.trim().toLowerCase())) {
+        throw new Error(`Email address '${memberData.email}' is already registered.`);
+      }
 
-    const now = new Date().toISOString();
-    const newMember: TeamMember = {
-      ...memberData,
-      id: this.generateId('mem'),
-      createdAt: now,
-      updatedAt: now,
-    };
+      const now = new Date().toISOString();
+      const newMember: TeamMember = {
+        ...memberData,
+        id: this.generateId('mem'),
+        createdAt: now,
+        updatedAt: now,
+      };
 
-    members.push(newMember);
-    await this.safeWriteFile('team-members.json', members);
-    await this.logActivity('member', newMember.id, 'Created Team Member', `Added ${newMember.fullName} (${newMember.designation})`, 'Administrator');
-    return newMember;
+      members.push(newMember);
+      await this.safeWriteFile('team-members.json', members);
+      await this.logActivity('member', newMember.id, 'Created Team Member', `Added ${newMember.fullName} (${newMember.designation})`, 'Administrator');
+      return newMember;
+    });
   }
 
   public async updateTeamMember(id: string, updates: Partial<TeamMember>): Promise<TeamMember> {
-    const members = await this.getAllTeamMembers();
-    const index = members.findIndex((m) => m.id === id);
-    if (index === -1) {
-      throw new Error(`Team member with ID '${id}' not found.`);
-    }
-
-    // Check unique employee code if updated
-    if (updates.employeeCode && updates.employeeCode !== members[index].employeeCode) {
-      if (members.some((m) => m.id !== id && m.employeeCode.trim().toLowerCase() === updates.employeeCode!.trim().toLowerCase())) {
-        throw new Error(`Employee code '${updates.employeeCode}' is already registered.`);
+    return this.withFileLock('team-members.json', async () => {
+      const members = await this.getAllTeamMembers();
+      const index = members.findIndex((m) => m.id === id);
+      if (index === -1) {
+        throw new Error(`Team member with ID '${id}' not found.`);
       }
-    }
 
-    // Check unique email if updated
-    if (updates.email && updates.email !== members[index].email) {
-      if (members.some((m) => m.id !== id && m.email.trim().toLowerCase() === updates.email!.trim().toLowerCase())) {
-        throw new Error(`Email address '${updates.email}' is already registered.`);
+      // Check unique employee code if updated
+      if (updates.employeeCode && updates.employeeCode !== members[index].employeeCode) {
+        if (members.some((m) => m.id !== id && m.employeeCode.trim().toLowerCase() === updates.employeeCode!.trim().toLowerCase())) {
+          throw new Error(`Employee code '${updates.employeeCode}' is already registered.`);
+        }
       }
-    }
 
-    const now = new Date().toISOString();
-    members[index] = {
-      ...members[index],
-      ...updates,
-      updatedAt: now,
-    };
+      // Check unique email if updated
+      if (updates.email && updates.email !== members[index].email) {
+        if (members.some((m) => m.id !== id && m.email.trim().toLowerCase() === updates.email!.trim().toLowerCase())) {
+          throw new Error(`Email address '${updates.email}' is already registered.`);
+        }
+      }
 
-    await this.safeWriteFile('team-members.json', members);
-    await this.logActivity('member', id, 'Updated Team Member', `Updated details for ${members[index].fullName}`, 'Administrator');
-    return members[index];
+      const now = new Date().toISOString();
+      members[index] = {
+        ...members[index],
+        ...updates,
+        updatedAt: now,
+      };
+
+      await this.safeWriteFile('team-members.json', members);
+      await this.logActivity('member', id, 'Updated Team Member', `Updated details for ${members[index].fullName}`, 'Administrator');
+      return members[index];
+    });
   }
 
   public async setTeamMemberStatus(id: string, status: 'Active' | 'Inactive'): Promise<TeamMember> {
@@ -256,53 +260,55 @@ export class StorageService {
     adminRemarks?: string;
     createdBy?: string;
   }): Promise<Task> {
-    const tasks = await this.getAllTasks();
-    const now = new Date().toISOString();
-    const today = this.getTodayDateString();
+    return this.withFileLock('tasks.json', async () => {
+      const tasks = await this.getAllTasks();
+      const now = new Date().toISOString();
+      const today = this.getTodayDateString();
 
-    const isCompleted = taskData.status === 'Completed';
+      const isCompleted = taskData.status === 'Completed';
 
-    const newTask: Task = {
-      id: this.generateId('task'),
-      title: taskData.title.trim(),
-      description: taskData.description?.trim() || '',
-      assigneeIds: taskData.assigneeIds || [],
-      department: taskData.department || 'General',
-      project: taskData.project || 'General',
-      category: taskData.category || 'Operational',
-      priority: taskData.priority || 'Medium',
-      status: taskData.status || 'To Do',
-      createdDate: today,
-      startDate: taskData.startDate || today,
-      originalTargetDate: taskData.targetDate, // Immutable
-      currentTargetDate: taskData.targetDate,
-      reminderDate: taskData.reminderDate || undefined,
-      estimatedEffortHours: taskData.estimatedEffortHours || 0,
-      actualEffortHours: 0,
-      progress: isCompleted ? 100 : (taskData.progress || 0),
-      linkedGoalIds: taskData.linkedGoalIds || [],
-      adminRemarks: taskData.adminRemarks || '',
-      createdBy: taskData.createdBy || 'Administrator',
-      createdAt: now,
-      updatedAt: now,
-      completedAt: isCompleted ? now : null,
-      deadlineRevisionCount: 0,
-      missedDeadlineCount: 0,
-    };
+      const newTask: Task = {
+        id: this.generateId('task'),
+        title: taskData.title.trim(),
+        description: taskData.description?.trim() || '',
+        assigneeIds: taskData.assigneeIds || [],
+        department: taskData.department || 'General',
+        project: taskData.project || 'General',
+        category: taskData.category || 'Operational',
+        priority: taskData.priority || 'Medium',
+        status: taskData.status || 'To Do',
+        createdDate: today,
+        startDate: taskData.startDate || today,
+        originalTargetDate: taskData.targetDate, // Immutable
+        currentTargetDate: taskData.targetDate,
+        reminderDate: taskData.reminderDate || undefined,
+        estimatedEffortHours: taskData.estimatedEffortHours || 0,
+        actualEffortHours: 0,
+        progress: isCompleted ? 100 : (taskData.progress || 0),
+        linkedGoalIds: taskData.linkedGoalIds || [],
+        adminRemarks: taskData.adminRemarks || '',
+        createdBy: taskData.createdBy || 'Administrator',
+        createdAt: now,
+        updatedAt: now,
+        completedAt: isCompleted ? now : null,
+        deadlineRevisionCount: 0,
+        missedDeadlineCount: 0,
+      };
 
-    tasks.push(newTask);
-    await this.safeWriteFile('tasks.json', tasks);
+      tasks.push(newTask);
+      await this.safeWriteFile('tasks.json', tasks);
 
-    await this.logActivity('task', newTask.id, 'Created Task', `Created task "${newTask.title}" due ${newTask.currentTargetDate}`, newTask.createdBy);
-    await this.createNotification({
-      title: `New Task Assigned: ${newTask.title}`,
-      description: `Task has been assigned and scheduled for deadline ${newTask.currentTargetDate}.`,
-      entityType: 'task',
-      entityId: newTask.id,
-      severity: 'info',
+      await this.logActivity('task', newTask.id, 'Created Task', `Created task "${newTask.title}" due ${newTask.currentTargetDate}`, newTask.createdBy);
+      await this.createNotification({
+        title: `New Task Assigned: ${newTask.title}`,
+        description: `Task has been assigned and scheduled for deadline ${newTask.currentTargetDate}.`,
+        entityType: 'task',
+        entityId: newTask.id,
+        severity: 'info',
+      });
+
+      return newTask;
     });
-
-    return newTask;
   }
 
   public async updateTask(id: string, updates: Partial<Task>): Promise<Task> {
@@ -548,64 +554,68 @@ export class StorageService {
   }
 
   public async createGoal(goalData: Omit<Goal, 'id' | 'createdAt' | 'updatedAt'>): Promise<Goal> {
-    const goals = await this.getAllGoals();
-    const now = new Date().toISOString();
+    return this.withFileLock('goals.json', async () => {
+      const goals = await this.getAllGoals();
+      const now = new Date().toISOString();
 
-    const progress = Math.min(100, Math.round((goalData.currentAchievementValue / (goalData.targetValue || 1)) * 100));
-    let status = goalData.status;
-    if (progress >= 100) {
-      status = 'Achieved';
-    } else if (progress > 0 && status === 'Not Started') {
-      status = 'In Progress';
-    }
+      const progress = Math.min(100, Math.round((goalData.currentAchievementValue / (goalData.targetValue || 1)) * 100));
+      let status = goalData.status;
+      if (progress >= 100) {
+        status = 'Achieved';
+      } else if (progress > 0 && status === 'Not Started') {
+        status = 'In Progress';
+      }
 
-    const newGoal: Goal = {
-      ...goalData,
-      id: this.generateId('goal'),
-      progress,
-      status,
-      createdAt: now,
-      updatedAt: now,
-    };
+      const newGoal: Goal = {
+        ...goalData,
+        id: this.generateId('goal'),
+        progress,
+        status,
+        createdAt: now,
+        updatedAt: now,
+      };
 
-    goals.push(newGoal);
-    await this.safeWriteFile('goals.json', goals);
-    await this.logActivity('goal', newGoal.id, 'Created Goal', `Created goal: "${newGoal.title}" (${newGoal.targetValue} ${newGoal.unitOfMeasurement})`, 'Administrator');
-    return newGoal;
+      goals.push(newGoal);
+      await this.safeWriteFile('goals.json', goals);
+      await this.logActivity('goal', newGoal.id, 'Created Goal', `Created goal: "${newGoal.title}" (${newGoal.targetValue} ${newGoal.unitOfMeasurement})`, 'Administrator');
+      return newGoal;
+    });
   }
 
   public async updateGoal(id: string, updates: Partial<Goal>): Promise<Goal> {
-    const goals = await this.getAllGoals();
-    const index = goals.findIndex((g) => g.id === id);
-    if (index === -1) {
-      throw new Error(`Goal with ID '${id}' not found.`);
-    }
+    return this.withFileLock('goals.json', async () => {
+      const goals = await this.getAllGoals();
+      const index = goals.findIndex((g) => g.id === id);
+      if (index === -1) {
+        throw new Error(`Goal with ID '${id}' not found.`);
+      }
 
-    const currentGoal = goals[index];
-    const now = new Date().toISOString();
+      const currentGoal = goals[index];
+      const now = new Date().toISOString();
 
-    const currentAchievement = updates.currentAchievementValue !== undefined ? updates.currentAchievementValue : currentGoal.currentAchievementValue;
-    const targetValue = updates.targetValue !== undefined ? updates.targetValue : currentGoal.targetValue;
-    const progress = Math.min(100, Math.round((currentAchievement / (targetValue || 1)) * 100));
+      const currentAchievement = updates.currentAchievementValue !== undefined ? updates.currentAchievementValue : currentGoal.currentAchievementValue;
+      const targetValue = updates.targetValue !== undefined ? updates.targetValue : currentGoal.targetValue;
+      const progress = Math.min(100, Math.round((currentAchievement / (targetValue || 1)) * 100));
 
-    let status = updates.status !== undefined ? updates.status : currentGoal.status;
-    if (progress >= 100 && status !== 'Archived') {
-      status = 'Achieved';
-    }
+      let status = updates.status !== undefined ? updates.status : currentGoal.status;
+      if (progress >= 100 && status !== 'Archived') {
+        status = 'Achieved';
+      }
 
-    goals[index] = {
-      ...currentGoal,
-      ...updates,
-      currentAchievementValue: currentAchievement,
-      targetValue,
-      progress,
-      status,
-      updatedAt: now,
-    };
+      goals[index] = {
+        ...currentGoal,
+        ...updates,
+        currentAchievementValue: currentAchievement,
+        targetValue,
+        progress,
+        status,
+        updatedAt: now,
+      };
 
-    await this.safeWriteFile('goals.json', goals);
-    await this.logActivity('goal', id, 'Updated Goal', `Updated progress/details for goal "${goals[index].title}"`, 'Administrator');
-    return goals[index];
+      await this.safeWriteFile('goals.json', goals);
+      await this.logActivity('goal', id, 'Updated Goal', `Updated progress/details for goal "${goals[index].title}"`, 'Administrator');
+      return goals[index];
+    });
   }
 
   public async deleteGoal(id: string): Promise<boolean> {
