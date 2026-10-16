@@ -1,0 +1,8 @@
+{
+  "organizationName": "MR Technologies",
+  "timezone": "Asia/Kolkata",
+  "defaultReminderLeadDays": 3,
+  "autoCheckIntervalMinutes": 5,
+  "allowWeekendDeadlines": true,
+  "updatedAt": "2026-10-13T09:54:18.479Z"
+}

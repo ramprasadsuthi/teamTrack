@@ -1,0 +1,845 @@
+[
+  {
+    "id": "task_db25effdb6c9",
+    "title": "Create Functional Requirements for LMS",
+    "description": "",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Product Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-13",
+    "startDate": "2026-10-08",
+    "originalTargetDate": "2026-10-15",
+    "currentTargetDate": "2026-10-15",
+    "reminderDate": "2026-10-10",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-13T10:10:17.065Z",
+    "updatedAt": "2026-10-13T10:21:20.236Z",
+    "completedAt": "2026-10-13T10:21:20.236Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_a8369af9fb0b",
+    "title": "Pending Fee collection from Mani Kiran (PB9)",
+    "description": "Pending Fee: 6000 Rs",
+    "assigneeIds": [
+      "mem_4d24b724d6c3"
+    ],
+    "department": "Administration",
+    "project": "Admin",
+    "category": "Admin",
+    "priority": "High",
+    "status": "In Progress",
+    "createdDate": "2026-10-13",
+    "startDate": "2026-10-08",
+    "originalTargetDate": "2026-10-16",
+    "currentTargetDate": "2026-10-16",
+    "reminderDate": "2026-10-15",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 81,
+    "linkedGoalIds": [
+      "goal_39a9007f3a66"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-13T10:25:12.576Z",
+    "updatedAt": "2026-10-13T10:28:44.159Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_9b8fe03731f6",
+    "title": "Pending Fee collection from Sushma (PB9)",
+    "description": "",
+    "assigneeIds": [
+      "mem_4d24b724d6c3"
+    ],
+    "department": "Administration",
+    "project": "Admin",
+    "category": "Admin",
+    "priority": "High",
+    "status": "In Progress",
+    "createdDate": "2026-10-13",
+    "startDate": "2026-10-13",
+    "originalTargetDate": "2026-10-16",
+    "currentTargetDate": "2026-10-16",
+    "reminderDate": "2026-10-15",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_39a9007f3a66"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-13T10:26:46.037Z",
+    "updatedAt": "2026-10-13T10:26:46.037Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_907a32c46ac2",
+    "title": "UI Mock UP and Database Design",
+    "description": "UI Architecture and Database Design",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-01",
+    "originalTargetDate": "2026-10-02",
+    "currentTargetDate": "2026-10-02",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "This task is completed",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:21:39.119Z",
+    "updatedAt": "2026-10-14T09:21:39.119Z",
+    "completedAt": "2026-10-14T09:21:39.119Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_09418cec43f7",
+    "title": "LMS Server Deployment work in Localhost",
+    "description": "LMS Server Deployment work in Localhost verification",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-02",
+    "originalTargetDate": "2026-10-03",
+    "currentTargetDate": "2026-10-03",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "Completed",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:22:55.153Z",
+    "updatedAt": "2026-10-14T09:22:55.153Z",
+    "completedAt": "2026-10-14T09:22:55.153Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_ba0fefeb40ad",
+    "title": "Batch Database tables implementation",
+    "description": "Batch Database tables implementation",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-03",
+    "originalTargetDate": "2026-10-07",
+    "currentTargetDate": "2026-10-07",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:25:05.974Z",
+    "updatedAt": "2026-10-14T09:25:05.974Z",
+    "completedAt": "2026-10-14T09:25:05.974Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_25a4666a10fd",
+    "title": "Admin UI Implementation",
+    "description": "Admin UI contains:\n- Dashboard\n- Learning Path\n- Batches\n- Admin overview\n- Analytics and Reports",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-05",
+    "originalTargetDate": "2026-10-07",
+    "currentTargetDate": "2026-10-07",
+    "estimatedEffortHours": 24,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:26:29.896Z",
+    "updatedAt": "2026-10-14T09:26:29.896Z",
+    "completedAt": "2026-10-14T09:26:29.896Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_0cd743107916",
+    "title": "Bulk Batch upload using Excel sheet",
+    "description": "Bulk Batch (students) upload using Excel sheet",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-06",
+    "originalTargetDate": "2026-10-08",
+    "currentTargetDate": "2026-10-08",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:27:18.130Z",
+    "updatedAt": "2026-10-14T09:27:18.130Z",
+    "completedAt": "2026-10-14T09:27:18.130Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_eca6fc22e3cf",
+    "title": "Ability to add student in multiple batches",
+    "description": "Ability to add student in multiple batches",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-06",
+    "originalTargetDate": "2026-10-08",
+    "currentTargetDate": "2026-10-08",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:28:25.008Z",
+    "updatedAt": "2026-10-14T09:28:25.008Z",
+    "completedAt": "2026-10-14T09:28:25.008Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_2e6e38fddd4a",
+    "title": "Learning Path : Course Implementation",
+    "description": "Ability to add Videos\n- PDFs\n- Text files\n- Video links (youtube/ vimeo) etc",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-07",
+    "originalTargetDate": "2026-10-09",
+    "currentTargetDate": "2026-10-09",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:32:18.699Z",
+    "updatedAt": "2026-10-14T09:32:18.699Z",
+    "completedAt": "2026-10-14T09:32:18.699Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_27f04b89b234",
+    "title": "Admin Panel: Certificate Management",
+    "description": "- As an admin ability to issue the certificate to a student to completed the course",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-11-02",
+    "originalTargetDate": "2026-11-05",
+    "currentTargetDate": "2026-11-05",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:34:46.224Z",
+    "updatedAt": "2026-10-14T09:34:46.224Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_657a278ec091",
+    "title": "Admin Panel - Manage Assessments",
+    "description": "- Ability to add assessments (single question by question)\n- Ability to add assessments (bulk questions)\n- Ability to edit the existing assessments\n- Ability to delete/inactive the assessments",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:37:51.767Z",
+    "updatedAt": "2026-10-14T09:37:51.767Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_56c0fdfbd961",
+    "title": "Admin Panel - Manage Users",
+    "description": "- Able to create to single user \n- Able to create bulk users using upload the excel\n- Able to download the user data\n* Add phone number while creating the users\n* Able to Edit User Data ex: email id. phone number\n* Able to reset the password for the user\n* Able to provide view option for the password",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-17",
+    "currentTargetDate": "2026-10-17",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:43:14.620Z",
+    "updatedAt": "2026-10-14T10:00:19.050Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_9459fbde7484",
+    "title": "Admin Panel - Ability to provide to course access/revoke access to the students",
+    "description": "Admin Panel - Ability to provide to course access/revoke access to the students",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development+",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-12",
+    "originalTargetDate": "2026-10-14",
+    "currentTargetDate": "2026-10-14",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:44:36.335Z",
+    "updatedAt": "2026-10-14T09:44:36.335Z",
+    "completedAt": "2026-10-14T09:44:36.335Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_b177b7bcb18b",
+    "title": "Admin Panel : Batch Management",
+    "description": "- Adding new batches\n- Editing the batches\n- Delete the batches",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "Completed",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-08",
+    "originalTargetDate": "2026-10-10",
+    "currentTargetDate": "2026-10-10",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 100,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:46:14.243Z",
+    "updatedAt": "2026-10-14T09:46:14.243Z",
+    "completedAt": "2026-10-14T09:46:14.243Z",
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_e6930ad450f9",
+    "title": "Admin Panel - As an admin I should be able to see what all courses assigned to a student",
+    "description": "Manage users -> assigned courses - display courses for a student.",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-16",
+    "currentTargetDate": "2026-10-16",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T09:55:01.374Z",
+    "updatedAt": "2026-10-14T09:55:01.374Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_2a4f10ae9c3b",
+    "title": "As an admin, I can assign multiple courses to a single user.",
+    "description": "As an admin, I can assign multiple courses to a single user.",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-16",
+    "currentTargetDate": "2026-10-16",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:04:16.425Z",
+    "updatedAt": "2026-10-14T10:04:16.425Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_0193e68597d3",
+    "title": "Student Interface: As a student I can able to open the LMS application",
+    "description": "Student Interface: As a student I can able to open the LMS application",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:30:03.676Z",
+    "updatedAt": "2026-10-14T10:30:03.676Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_3491fac36fac",
+    "title": "As a student I can browse the available courses",
+    "description": "As a student I can browse the available courses",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:30:47.924Z",
+    "updatedAt": "2026-10-14T10:30:47.924Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_3cac7b7ff097",
+    "title": "As a student I can enquiry about the course (whatsApp)",
+    "description": "As a student I can enquiry about the course (whatsApp)",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:31:20.199Z",
+    "updatedAt": "2026-10-14T10:31:20.199Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_f462f38f02c2",
+    "title": "As a student I can login with my login details",
+    "description": "As a student I can login with my login details",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:31:49.422Z",
+    "updatedAt": "2026-10-14T10:31:49.422Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_4051dc996699",
+    "title": "As a student after login, I should be able to change my password.",
+    "description": "As a student after login, I should be able to change my password.",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-24",
+    "currentTargetDate": "2026-10-24",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:32:20.616Z",
+    "updatedAt": "2026-10-14T10:32:20.616Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_fcbc5ae209a3",
+    "title": "As a student after login to LMS, I can see my enrolled courses",
+    "description": "As a student after login to LMS, I can see my enrolled courses",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-17",
+    "currentTargetDate": "2026-10-17",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:32:52.653Z",
+    "updatedAt": "2026-10-14T10:32:52.653Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_d22e90094238",
+    "title": "As a student after login to LMS, I can see my enrolled courses",
+    "description": "As a student after login to LMS, I can see my enrolled courses",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "High",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-17",
+    "currentTargetDate": "2026-10-17",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:32:56.234Z",
+    "updatedAt": "2026-10-14T10:32:56.234Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_b3dc347593b1",
+    "title": "As a student I can able to see my learning progress each course.",
+    "description": "As a student I can able to see my learning progress each course.",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-17",
+    "currentTargetDate": "2026-10-17",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:33:51.701Z",
+    "updatedAt": "2026-10-14T10:33:51.701Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_493d2d5d3a5c",
+    "title": "As a student I should have access for assesments with in the course",
+    "description": "As a student I should have access for assesments with in the course",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-31",
+    "currentTargetDate": "2026-10-31",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:34:15.008Z",
+    "updatedAt": "2026-10-14T10:34:15.008Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_9e8af4c75d51",
+    "title": "As a student I should have a option access coding practice",
+    "description": "As a student I should have a option access coding practice",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-31",
+    "currentTargetDate": "2026-10-31",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:34:43.481Z",
+    "updatedAt": "2026-10-14T10:34:43.481Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  },
+  {
+    "id": "task_919de7cd1104",
+    "title": "As a student I should have an option to access mock test for assigned courses.",
+    "description": "As a student I should have an option to access mock test for assigned courses.",
+    "assigneeIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Engineering",
+    "project": "LMS",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "To Do",
+    "createdDate": "2026-10-14",
+    "startDate": "2026-10-14",
+    "originalTargetDate": "2026-10-31",
+    "currentTargetDate": "2026-10-31",
+    "estimatedEffortHours": 8,
+    "actualEffortHours": 0,
+    "progress": 0,
+    "linkedGoalIds": [
+      "goal_bceef7cee6d1"
+    ],
+    "adminRemarks": "",
+    "createdBy": "Administrator",
+    "createdAt": "2026-10-14T10:35:14.649Z",
+    "updatedAt": "2026-10-14T10:35:14.649Z",
+    "completedAt": null,
+    "deadlineRevisionCount": 0,
+    "missedDeadlineCount": 0
+  }
+]

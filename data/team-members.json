@@ -1,0 +1,30 @@
+[
+  {
+    "fullName": "Sai Roshan",
+    "employeeCode": "MR-E01",
+    "email": "sai123@gmail.com",
+    "phone": "+91 9059531341",
+    "designation": "Senior Admin",
+    "department": "Operations",
+    "joiningDate": "2025-05-02",
+    "status": "Active",
+    "notes": "Administration, Counselling",
+    "id": "mem_4d24b724d6c3",
+    "createdAt": "2026-10-13T10:05:23.311Z",
+    "updatedAt": "2026-10-13T10:05:23.311Z"
+  },
+  {
+    "fullName": "Nandini Malla",
+    "employeeCode": "MR-E02",
+    "email": "nandinimalla@rubiksbs.com",
+    "phone": "",
+    "designation": "Senior Trainer",
+    "department": "Engineering",
+    "joiningDate": "2026-01-01",
+    "status": "Active",
+    "notes": "Python, Java, AI, Web Development",
+    "id": "mem_2b889cbfb8f7",
+    "createdAt": "2026-10-13T10:07:50.075Z",
+    "updatedAt": "2026-10-13T10:07:50.075Z"
+  }
+]

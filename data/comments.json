@@ -1,0 +1,18 @@
+[
+  {
+    "id": "comment_6a75f1b1df42",
+    "taskId": "task_db25effdb6c9",
+    "authorName": "Administrator",
+    "authorRole": "Manager",
+    "content": "completed the most 20% pending",
+    "createdAt": "2026-10-13T10:10:46.445Z"
+  },
+  {
+    "id": "comment_9df73b95dcb4",
+    "taskId": "task_a8369af9fb0b",
+    "authorName": "Administrator",
+    "authorRole": "Manager",
+    "content": "Paid 5000 Rs and pending 1000",
+    "createdAt": "2026-10-13T10:29:03.754Z"
+  }
+]

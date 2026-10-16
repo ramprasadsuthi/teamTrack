@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Learning Management System (LMS)",
+    "description": "The goal of MR Technologies' Learning Management System (LMS) is to develop a comprehensive, scalable, and user-friendly online learning platform that makes quality technical education accessible and affordable to everyone.",
+    "ownerIds": [
+      "mem_2b889cbfb8f7"
+    ],
+    "department": "Quality Assurance",
+    "project": "Regression Suite",
+    "category": "Project",
+    "startDate": "2026-10-01",
+    "targetDate": "2026-12-31",
+    "targetValue": 26,
+    "currentAchievementValue": 10,
+    "unitOfMeasurement": "Tasks",
+    "progress": 38,
+    "status": "In Progress",
+    "linkedTaskIds": [],
+    "notes": "",
+    "id": "goal_bceef7cee6d1",
+    "createdAt": "2026-10-13T10:09:03.120Z",
+    "updatedAt": "2026-10-14T10:40:28.475Z"
+  },
+  {
+    "title": "Fee Collection",
+    "description": "Collecting Fee dues on time to avoid the slippages",
+    "ownerIds": [
+      "mem_4d24b724d6c3"
+    ],
+    "department": "Quality Assurance",
+    "project": "Regression Suite",
+    "category": "Quarterly",
+    "startDate": "2026-10-01",
+    "targetDate": "2026-12-31",
+    "targetValue": 10,
+    "currentAchievementValue": 2,
+    "unitOfMeasurement": "No. of Students",
+    "progress": 20,
+    "status": "In Progress",
+    "linkedTaskIds": [],
+    "notes": "",
+    "id": "goal_39a9007f3a66",
+    "createdAt": "2026-10-13T10:23:13.977Z",
+    "updatedAt": "2026-10-13T10:23:13.977Z"
+  }
+]

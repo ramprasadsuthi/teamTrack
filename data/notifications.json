@@ -1,0 +1,282 @@
+[
+  {
+    "title": "New Task Assigned: As a student I should have an option to access mock test for assigned courses.",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-31.",
+    "entityType": "task",
+    "entityId": "task_919de7cd1104",
+    "severity": "info",
+    "id": "notif_efdc2a5a0c34",
+    "createdAt": "2026-10-14T10:35:14.698Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I should have a option access coding practice",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-31.",
+    "entityType": "task",
+    "entityId": "task_9e8af4c75d51",
+    "severity": "info",
+    "id": "notif_09a31596526d",
+    "createdAt": "2026-10-14T10:34:43.527Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I should have access for assesments with in the course",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-31.",
+    "entityType": "task",
+    "entityId": "task_493d2d5d3a5c",
+    "severity": "info",
+    "id": "notif_caa8b31b5915",
+    "createdAt": "2026-10-14T10:34:15.067Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I can able to see my learning progress each course.",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-17.",
+    "entityType": "task",
+    "entityId": "task_b3dc347593b1",
+    "severity": "info",
+    "id": "notif_db1c32f806b0",
+    "createdAt": "2026-10-14T10:33:51.746Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student after login to LMS, I can see my enrolled courses",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-17.",
+    "entityType": "task",
+    "entityId": "task_d22e90094238",
+    "severity": "info",
+    "id": "notif_ed39a408a60c",
+    "createdAt": "2026-10-14T10:32:56.321Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student after login, I should be able to change my password.",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_4051dc996699",
+    "severity": "info",
+    "id": "notif_cb0a65f7d24b",
+    "createdAt": "2026-10-14T10:32:20.662Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I can login with my login details",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_f462f38f02c2",
+    "severity": "info",
+    "id": "notif_ec4325bac1ef",
+    "createdAt": "2026-10-14T10:31:49.482Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I can enquiry about the course (whatsApp)",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_3cac7b7ff097",
+    "severity": "info",
+    "id": "notif_597be98d9cfb",
+    "createdAt": "2026-10-14T10:31:20.248Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As a student I can browse the available courses",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_3491fac36fac",
+    "severity": "info",
+    "id": "notif_b3e1db76813e",
+    "createdAt": "2026-10-14T10:30:47.971Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Student Interface: As a student I can able to open the LMS application",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_0193e68597d3",
+    "severity": "info",
+    "id": "notif_f2c9aa34bde2",
+    "createdAt": "2026-10-14T10:30:03.717Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: As an admin, I can assign multiple courses to a single user.",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-16.",
+    "entityType": "task",
+    "entityId": "task_2a4f10ae9c3b",
+    "severity": "info",
+    "id": "notif_9d8689598ac5",
+    "createdAt": "2026-10-14T10:04:16.477Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel - As an admin I should be able to see what all courses assigned to a student",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-16.",
+    "entityType": "task",
+    "entityId": "task_e6930ad450f9",
+    "severity": "info",
+    "id": "notif_f6f2bd44af66",
+    "createdAt": "2026-10-14T09:55:01.424Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel : Batch Management",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-10.",
+    "entityType": "task",
+    "entityId": "task_b177b7bcb18b",
+    "severity": "info",
+    "id": "notif_4ad56eb680e4",
+    "createdAt": "2026-10-14T09:46:14.287Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel - Ability to provide to course access/revoke access to the students",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-14.",
+    "entityType": "task",
+    "entityId": "task_9459fbde7484",
+    "severity": "info",
+    "id": "notif_e2ddc55253f6",
+    "createdAt": "2026-10-14T09:44:36.419Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel - Manage Users",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-17.",
+    "entityType": "task",
+    "entityId": "task_56c0fdfbd961",
+    "severity": "info",
+    "id": "notif_cbbb624fde66",
+    "createdAt": "2026-10-14T09:43:14.674Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel - Manage Assessments",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-24.",
+    "entityType": "task",
+    "entityId": "task_657a278ec091",
+    "severity": "info",
+    "id": "notif_209ba308d3a2",
+    "createdAt": "2026-10-14T09:37:51.817Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin Panel: Certificate Management",
+    "description": "Task has been assigned and scheduled for deadline 2026-11-05.",
+    "entityType": "task",
+    "entityId": "task_27f04b89b234",
+    "severity": "info",
+    "id": "notif_4ad9ef0a6990",
+    "createdAt": "2026-10-14T09:34:46.272Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Learning Path : Course Implementation",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-09.",
+    "entityType": "task",
+    "entityId": "task_2e6e38fddd4a",
+    "severity": "info",
+    "id": "notif_ceae0ce168e1",
+    "createdAt": "2026-10-14T09:32:18.759Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Ability to add student in multiple batches",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-08.",
+    "entityType": "task",
+    "entityId": "task_eca6fc22e3cf",
+    "severity": "info",
+    "id": "notif_7f37925069cb",
+    "createdAt": "2026-10-14T09:28:25.073Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Bulk Batch upload using Excel sheet",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-08.",
+    "entityType": "task",
+    "entityId": "task_0cd743107916",
+    "severity": "info",
+    "id": "notif_81e53bd6b63a",
+    "createdAt": "2026-10-14T09:27:18.190Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Admin UI Implementation",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-07.",
+    "entityType": "task",
+    "entityId": "task_25a4666a10fd",
+    "severity": "info",
+    "id": "notif_0c549cc9a781",
+    "createdAt": "2026-10-14T09:26:29.965Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Batch Database tables implementation",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-07.",
+    "entityType": "task",
+    "entityId": "task_ba0fefeb40ad",
+    "severity": "info",
+    "id": "notif_d0aa437767f4",
+    "createdAt": "2026-10-14T09:25:06.030Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: LMS Server Deployment work in Localhost",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-03.",
+    "entityType": "task",
+    "entityId": "task_09418cec43f7",
+    "severity": "info",
+    "id": "notif_43eea28e01df",
+    "createdAt": "2026-10-14T09:22:55.204Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: UI Mock UP and Database Design",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-02.",
+    "entityType": "task",
+    "entityId": "task_907a32c46ac2",
+    "severity": "info",
+    "id": "notif_4ff09a5944e0",
+    "createdAt": "2026-10-14T09:21:39.174Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Pending Fee collection from Sushma (PB9)",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-16.",
+    "entityType": "task",
+    "entityId": "task_9b8fe03731f6",
+    "severity": "info",
+    "id": "notif_933ccf75257b",
+    "createdAt": "2026-10-13T10:26:46.103Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Pending Fee collection from Mani Kiran (PB9)",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-16.",
+    "entityType": "task",
+    "entityId": "task_a8369af9fb0b",
+    "severity": "info",
+    "id": "notif_cf91c3bbea94",
+    "createdAt": "2026-10-13T10:25:12.651Z",
+    "read": false
+  },
+  {
+    "title": "Task Completed: Create Functional Requirements for LMS",
+    "description": "Task was marked completed with 100% progress.",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "severity": "success",
+    "id": "notif_87657d35ed0e",
+    "createdAt": "2026-10-13T10:21:20.319Z",
+    "read": false
+  },
+  {
+    "title": "New Task Assigned: Create Functional Requirements for LMS",
+    "description": "Task has been assigned and scheduled for deadline 2026-10-15.",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "severity": "info",
+    "id": "notif_673aeabce186",
+    "createdAt": "2026-10-13T10:10:17.133Z",
+    "read": false
+  }
+]

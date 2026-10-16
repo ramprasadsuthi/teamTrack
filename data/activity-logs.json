@@ -1,0 +1,353 @@
+[
+  {
+    "id": "act_e70e411dbc85",
+    "entityType": "goal",
+    "entityId": "goal_bceef7cee6d1",
+    "action": "Updated Goal",
+    "details": "Updated progress/details for goal \"Learning Management System (LMS)\"",
+    "timestamp": "2026-10-14T10:40:28.499Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_bd995a49b95b",
+    "entityType": "task",
+    "entityId": "task_919de7cd1104",
+    "action": "Created Task",
+    "details": "Created task \"As a student I should have an option to access mock test for assigned courses.\" due 2026-10-31",
+    "timestamp": "2026-10-14T10:35:14.675Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_8c29d5226b44",
+    "entityType": "task",
+    "entityId": "task_9e8af4c75d51",
+    "action": "Created Task",
+    "details": "Created task \"As a student I should have a option access coding practice\" due 2026-10-31",
+    "timestamp": "2026-10-14T10:34:43.506Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_fad73d1d28f6",
+    "entityType": "task",
+    "entityId": "task_493d2d5d3a5c",
+    "action": "Created Task",
+    "details": "Created task \"As a student I should have access for assesments with in the course\" due 2026-10-31",
+    "timestamp": "2026-10-14T10:34:15.041Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_6b7e9289d64f",
+    "entityType": "task",
+    "entityId": "task_b3dc347593b1",
+    "action": "Created Task",
+    "details": "Created task \"As a student I can able to see my learning progress each course.\" due 2026-10-17",
+    "timestamp": "2026-10-14T10:33:51.725Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_317518995c79",
+    "entityType": "task",
+    "entityId": "task_d22e90094238",
+    "action": "Created Task",
+    "details": "Created task \"As a student after login to LMS, I can see my enrolled courses\" due 2026-10-17",
+    "timestamp": "2026-10-14T10:32:56.271Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_84e96bd9a3be",
+    "entityType": "task",
+    "entityId": "task_4051dc996699",
+    "action": "Created Task",
+    "details": "Created task \"As a student after login, I should be able to change my password.\" due 2026-10-24",
+    "timestamp": "2026-10-14T10:32:20.642Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_f1adf5340528",
+    "entityType": "task",
+    "entityId": "task_f462f38f02c2",
+    "action": "Created Task",
+    "details": "Created task \"As a student I can login with my login details\" due 2026-10-24",
+    "timestamp": "2026-10-14T10:31:49.457Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_6a9200fc1ed3",
+    "entityType": "task",
+    "entityId": "task_3cac7b7ff097",
+    "action": "Created Task",
+    "details": "Created task \"As a student I can enquiry about the course (whatsApp)\" due 2026-10-24",
+    "timestamp": "2026-10-14T10:31:20.227Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_ca02beb6a262",
+    "entityType": "task",
+    "entityId": "task_3491fac36fac",
+    "action": "Created Task",
+    "details": "Created task \"As a student I can browse the available courses\" due 2026-10-24",
+    "timestamp": "2026-10-14T10:30:47.945Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_9717c11f443e",
+    "entityType": "task",
+    "entityId": "task_0193e68597d3",
+    "action": "Created Task",
+    "details": "Created task \"Student Interface: As a student I can able to open the LMS application\" due 2026-10-24",
+    "timestamp": "2026-10-14T10:30:03.697Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_1988e746fdf6",
+    "entityType": "task",
+    "entityId": "task_2a4f10ae9c3b",
+    "action": "Created Task",
+    "details": "Created task \"As an admin, I can assign multiple courses to a single user.\" due 2026-10-16",
+    "timestamp": "2026-10-14T10:04:16.455Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_88e93154640e",
+    "entityType": "task",
+    "entityId": "task_56c0fdfbd961",
+    "action": "Updated Task",
+    "details": "Updated details for task \"Admin Panel - Manage Users\"",
+    "timestamp": "2026-10-14T10:00:19.070Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_71d354a2636e",
+    "entityType": "task",
+    "entityId": "task_e6930ad450f9",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel - As an admin I should be able to see what all courses assigned to a student\" due 2026-10-16",
+    "timestamp": "2026-10-14T09:55:01.406Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_bdb1ad31c0f7",
+    "entityType": "task",
+    "entityId": "task_b177b7bcb18b",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel : Batch Management\" due 2026-10-10",
+    "timestamp": "2026-10-14T09:46:14.264Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_17ae6b0fe447",
+    "entityType": "task",
+    "entityId": "task_9459fbde7484",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel - Ability to provide to course access/revoke access to the students\" due 2026-10-14",
+    "timestamp": "2026-10-14T09:44:36.386Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_170e3912abc2",
+    "entityType": "task",
+    "entityId": "task_56c0fdfbd961",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel - Manage Users\" due 2026-10-17",
+    "timestamp": "2026-10-14T09:43:14.653Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_1c50f23d3172",
+    "entityType": "task",
+    "entityId": "task_657a278ec091",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel - Manage Assessments\" due 2026-10-24",
+    "timestamp": "2026-10-14T09:37:51.792Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_6c3760e4bc4a",
+    "entityType": "task",
+    "entityId": "task_27f04b89b234",
+    "action": "Created Task",
+    "details": "Created task \"Admin Panel: Certificate Management\" due 2026-11-05",
+    "timestamp": "2026-10-14T09:34:46.248Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_3700c065b1e6",
+    "entityType": "task",
+    "entityId": "task_2e6e38fddd4a",
+    "action": "Created Task",
+    "details": "Created task \"Learning Path : Course Implementation\" due 2026-10-09",
+    "timestamp": "2026-10-14T09:32:18.730Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_31e11d9835bb",
+    "entityType": "task",
+    "entityId": "task_eca6fc22e3cf",
+    "action": "Created Task",
+    "details": "Created task \"Ability to add student in multiple batches\" due 2026-10-08",
+    "timestamp": "2026-10-14T09:28:25.044Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_1b0a73a735f3",
+    "entityType": "task",
+    "entityId": "task_0cd743107916",
+    "action": "Created Task",
+    "details": "Created task \"Bulk Batch upload using Excel sheet\" due 2026-10-08",
+    "timestamp": "2026-10-14T09:27:18.164Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_8d43446f8d66",
+    "entityType": "task",
+    "entityId": "task_25a4666a10fd",
+    "action": "Created Task",
+    "details": "Created task \"Admin UI Implementation\" due 2026-10-07",
+    "timestamp": "2026-10-14T09:26:29.935Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_55df10c2a7ce",
+    "entityType": "task",
+    "entityId": "task_ba0fefeb40ad",
+    "action": "Created Task",
+    "details": "Created task \"Batch Database tables implementation\" due 2026-10-07",
+    "timestamp": "2026-10-14T09:25:06.004Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_c956e26e09cb",
+    "entityType": "task",
+    "entityId": "task_09418cec43f7",
+    "action": "Created Task",
+    "details": "Created task \"LMS Server Deployment work in Localhost\" due 2026-10-03",
+    "timestamp": "2026-10-14T09:22:55.181Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_eb086a147df9",
+    "entityType": "task",
+    "entityId": "task_907a32c46ac2",
+    "action": "Created Task",
+    "details": "Created task \"UI Mock UP and Database Design\" due 2026-10-02",
+    "timestamp": "2026-10-14T09:21:39.151Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_4d9382497138",
+    "entityType": "task",
+    "entityId": "task_a8369af9fb0b",
+    "action": "Added Comment",
+    "details": "Added comment on task",
+    "timestamp": "2026-10-13T10:29:03.783Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_a3d25e191485",
+    "entityType": "task",
+    "entityId": "task_a8369af9fb0b",
+    "action": "Updated Task",
+    "details": "Updated details for task \"Pending Fee collection from Mani Kiran (PB9)\"",
+    "timestamp": "2026-10-13T10:28:44.186Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_c9585bb298a8",
+    "entityType": "task",
+    "entityId": "task_9b8fe03731f6",
+    "action": "Created Task",
+    "details": "Created task \"Pending Fee collection from Sushma (PB9)\" due 2026-10-16",
+    "timestamp": "2026-10-13T10:26:46.076Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_54b132996840",
+    "entityType": "task",
+    "entityId": "task_a8369af9fb0b",
+    "action": "Created Task",
+    "details": "Created task \"Pending Fee collection from Mani Kiran (PB9)\" due 2026-10-16",
+    "timestamp": "2026-10-13T10:25:12.618Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_c506fd3d4dc6",
+    "entityType": "goal",
+    "entityId": "goal_39a9007f3a66",
+    "action": "Created Goal",
+    "details": "Created goal: \"Fee Collection\" (10 No. of Students)",
+    "timestamp": "2026-10-13T10:23:14.016Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_32eb3fa6a807",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "action": "Updated Task",
+    "details": "Updated details for task \"Create Functional Requirements for LMS\"",
+    "timestamp": "2026-10-13T10:21:20.275Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_bffb89ef0996",
+    "entityType": "goal",
+    "entityId": "goal_bceef7cee6d1",
+    "action": "Updated Goal",
+    "details": "Updated progress/details for goal \"Learning Management System (LMS)\"",
+    "timestamp": "2026-10-13T10:12:45.515Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_0a62bf00258e",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "action": "Updated Task",
+    "details": "Updated details for task \"Create Functional Requirements for LMS\"",
+    "timestamp": "2026-10-13T10:10:55.753Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_6a2a8161a855",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "action": "Added Comment",
+    "details": "Added comment on task",
+    "timestamp": "2026-10-13T10:10:46.476Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_72d1073ce7cb",
+    "entityType": "task",
+    "entityId": "task_db25effdb6c9",
+    "action": "Created Task",
+    "details": "Created task \"Create Functional Requirements for LMS\" due 2026-10-15",
+    "timestamp": "2026-10-13T10:10:17.108Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_e9e206008943",
+    "entityType": "goal",
+    "entityId": "goal_bceef7cee6d1",
+    "action": "Created Goal",
+    "details": "Created goal: \"Learning Management System (LMS)\" (10 user stories)",
+    "timestamp": "2026-10-13T10:09:03.170Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_96260e036b55",
+    "entityType": "member",
+    "entityId": "mem_2b889cbfb8f7",
+    "action": "Created Team Member",
+    "details": "Added Nandini Malla (Senior Trainer)",
+    "timestamp": "2026-10-13T10:07:50.103Z",
+    "actor": "Administrator"
+  },
+  {
+    "id": "act_49e88903d9c8",
+    "entityType": "member",
+    "entityId": "mem_4d24b724d6c3",
+    "action": "Created Team Member",
+    "details": "Added Sai Roshan (Senior Admin)",
+    "timestamp": "2026-10-13T10:05:23.336Z",
+    "actor": "Administrator"
+  }
+]
